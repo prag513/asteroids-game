@@ -4,6 +4,7 @@ import random
 import os
 import sys
 
+#highscore saving
 if getattr(sys, 'frozen', False):
     BASE_DIR = os.path.expanduser("~")
 else:
